@@ -2,3 +2,5 @@ node_modules
 postcss.config.js
 tailwind.config.js
 tailwind.css
+package-lock.json
+package.json
