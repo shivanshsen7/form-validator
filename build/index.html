@@ -6,10 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Validator</title>
     <link rel="stylesheet" href="css/tailwind.css">
-    <script src="script/main.js"></script>
 </head>
 
-<body>
+<body class="bg-gray-600  px-2 font-sans">
+    <div class="container-max-md">
+        <h2 class="big">Register </h2>
+        <form id="form" class="text-base">
+            <div class="row">
+                <label for="username" class="label">Username</label>
+                <input type="text" name="username" id="username" class="input-block border-2 transparent-border  ">
+                <small class="error-msg hide ">Error msg Here</small>
+            </div>
+
+            <div class="row">
+                <label for="email" class="label">Email</label>
+                <input type="text" name="email" id="email" class="input-block border-2 transparent-border  ">
+                <small class="error-msg hide">Error msg Here</small>
+            </div>
+            <div class="row">
+                <label for="password" class="label">Password</label>
+                <input type="password" name="password" id="password" class="input-block border-2 transparent-border  ">
+                <small class="error-msg hide">Error msg Here</small>
+            </div>
+            <div class="row">
+                <label for="confirm-password" class="label">Confirm password</label>
+                <input type="password" name="confirm-password" id="confirmPassword"
+                    class="input-block border-2 transparent-border  ">
+                <small class="error-msg  hide">Error msg Here</small>
+            </div>
+
+            <button
+                class="submit-btn text-white bg-teal-500 hover:bg-green-500 hover:shadow-lg focus:bg-green-500 focus:outline-none focus:shadow-lg">Submit</button>
+        </form>
+    </div>
+
+    <script src="script/main.js"></script>
 
 </body>
 
