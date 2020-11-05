@@ -59,7 +59,7 @@ let checkValueLength = (elem, minLength = 8, maxLength = 16) => {
     } else if (elem.value.length > maxLength) {
         return ({
             result: false,
-            msg: `must be less than ${minLength} in length!`
+            msg: `must be less than ${maxLength} in length!`
         });
     } else {
         return ({
