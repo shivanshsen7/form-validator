@@ -10,8 +10,7 @@ let getLabelName = (elem) => {
 }
 
 let showPass = (elem) => {
-    elem.classList.remove("transparent-border");
-
+    
     if (!elem.classList.contains("input-border-pass")) {
         elem.classList.add("input-border-pass")
     }

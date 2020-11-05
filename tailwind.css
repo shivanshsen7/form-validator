@@ -407,6 +407,14 @@ input {
   margin-right: 0.75rem;
 }
 
+.input-border-err {
+  border-color: #fc8181;
+}
+
+.input-border-pass {
+  border-color: #68d391;
+}
+
 .hide {
   visibility: hidden;
 }
@@ -416,6 +424,8 @@ input {
   font-size: 1rem;
   padding: 0.5rem;
   border-radius: 0.375rem;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }
 
 .label {
@@ -520,6 +530,7 @@ input {
   color: #fff;
   color: rgba(255, 255, 255, var(--text-opacity));
 }
+
 
 @keyframes spin {
   to {
