@@ -11,11 +11,11 @@ let getLabelName = (elem) => {
 
 let showPass = (elem) => {
     
-    if (!elem.classList.contains("input-border-pass")) {
-        elem.classList.add("input-border-pass")
-    }
     if (elem.classList.contains("input-border-err")) {
         elem.classList.remove("input-border-err")
+    }
+    if (!elem.classList.contains("input-border-pass")) {
+        elem.classList.add("input-border-pass")
     }
 
     let msgElem = elem.parentElement.getElementsByTagName("small")[0];
@@ -30,8 +30,13 @@ let showErr = (elem, msg) => {
     if (msgElem.classList.contains("hide")) {
         msgElem.classList.remove("hide")
     }
-    elem.classList.remove("transparent-border");
-    elem.classList.add("input-border-err");
+    if (!elem.classList.contains("input-border-err")) {
+        elem.classList.add("input-border-err")
+    }
+    if (elem.classList.contains("input-border-pass")) {
+        elem.classList.remove("input-border-pass")
+    }
+
 }
 
 let checkBlank = (elem) => {
