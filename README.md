@@ -27,8 +27,15 @@ Live :red_circle: at https://shivanshsen7.github.io/form-validator/
 :white_check_mark: length must be in predefined range. Here, minimum -> 8 & maximum -> 16, both inclusive.  
 :white_check_mark: can't have white space inbetween.  
   
+  ![Showcase Password Functionality](/showcase-assets/password-showcase.gif)
+  
 ##### Submit Button: 
 :white_check_mark: provides visual feedback on hover or focus.  
+
+
+![Showcase Submit Functionality](/showcase-assets/submit-showcase.gif)
+
+
 
 ##### Visual Feedback:
 :white_check_mark: on error, input-box gets border of red color  
