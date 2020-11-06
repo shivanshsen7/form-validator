@@ -3,33 +3,36 @@ Live :red_circle: at https://shivanshsen7.github.io/form-validator/
 ### A simple form with validations by vanilla javascript, and visual and text feedback.
 ### features:
 ##### Username: 
-* Can't be left blank/empty.
-* length must be in predefined range. Here, minimum -> 8 & maximum -> 16, both inclusive.
-* can't have white space inbetween.
-
+:white_check_mark: Can't be left blank/empty.  
+:white_check_mark: Length must be in predefined range. Here, minimum -> 8 & maximum -> 16, both inclusive.  
+:white_check_mark: Can't have white space inbetween.  
+  
+![Showcase Username Functionality](/showcase-assets/username-showcase.gif)
 ##### Email: 
-* Can't be left blank/empty.
-* must be in a proper format.
-* can't have white space inbetween.
+:white_check_mark: Can't be left blank/empty.  
+:white_check_mark: Must be in a proper format.  
+:white_check_mark: Can't have white space inbetween.  
 
+
+![Showcase Email Functionality](/showcase-assets/email-showcase.gif)
 ##### Password: 
-* Can't be left blank/empty.
-* length must be in predefined range. Here, minimum -> 8 & maximum -> 16, both inclusive.
-* can't have white space inbetween.
-* must match confirm password block.
+:white_check_mark: Can't be left blank/empty.  
+:white_check_mark: length must be in predefined range. Here, minimum -> 8 & maximum -> 16, both inclusive.  
+:white_check_mark: can't have white space inbetween.  
+:white_check_mark: must match confirm password block.  
 
 ##### Confirm Password: 
-* must match password block.
-* Can't be left blank/empty.
-* length must be in predefined range. Here, minimum -> 8 & maximum -> 16, both inclusive.
-* can't have white space inbetween.
-
+:white_check_mark: must match password block.  
+:white_check_mark: Can't be left blank/empty.  
+:white_check_mark: length must be in predefined range. Here, minimum -> 8 & maximum -> 16, both inclusive.  
+:white_check_mark: can't have white space inbetween.  
+  
 ##### Submit Button: 
-* provides visual feedback on hover or focus.
+:white_check_mark: provides visual feedback on hover or focus.  
 
 ##### Visual Feedback:
-* on error, input-box gets border of red color
-* on validation, input-box gets border of green color
+:white_check_mark: on error, input-box gets border of red color  
+:white_check_mark: on validation, input-box gets border of green color  
 
 ##### Text Feedback: 
-* on error, msg with most priority is displayed in red color, right below input-box
+:white_check_mark: on error, msg with most priority is displayed in red color, right below input-box  
