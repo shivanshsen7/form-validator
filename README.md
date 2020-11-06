@@ -1,7 +1,7 @@
 # [form-validator](https://shivanshsen7.github.io/form-validator/)
 Live :red_circle: at https://shivanshsen7.github.io/form-validator/
 ### A simple form with validations by vanilla javascript, and visual and text feedback.
-#### features:
+### features:
 ##### Username: 
 * Can't be left blank/empty.
 * length must be in predefined range. Here, minimum -> 8 & maximum -> 16, both inclusive.
@@ -26,3 +26,10 @@ Live :red_circle: at https://shivanshsen7.github.io/form-validator/
 
 ##### Submit Button: 
 * provides visual feedback on hover or focus.
+
+##### Visual Feedback:
+* on error, input-box gets border of red color
+* on validation, input-box gets border of green color
+
+##### Text Feedback: 
+* on error, msg with most priority is displayed in red color, right below input-box
